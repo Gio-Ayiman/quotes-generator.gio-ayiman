@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2? family= Poppins:wght@600 & display=swap");
+
+* {
+  padding: 0;
+  margin: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #272b54;
+}
+
+#bloc-citation {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 250px;
+  width: 99%;
+  text-align: center;
+}
+
+#div-citation {
+  width: 100%;
+  height: auto;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+}
+
+#div-auteur {
+  width: 100%;
+  height: auto;
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: white;
+}
+
+#boutton-citation {
+  position: absolute;
+  bottom: 150px;
+  left: 516px;
+  color: white;
+  font-weight: 600;
+  font-size: 26px;
+  background-color: #af043db2;
+  border: none;
+  border-radius: 27px;
+  width: 335px;
+  height: 78px;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0px 0px 0px 4px #272b54;
+}
+
+#boutton-citation:hover {
+  background-color: #af043d;
+}
